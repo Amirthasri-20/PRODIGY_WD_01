@@ -1,0 +1,87 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navigation menu */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: red;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-menu a {
+  color: red;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.nav-menu a:hover {
+  color: red;
+  border-bottom: 2px solid #ffd700;
+}
+
+/* Section styling */
+.section {
+  height: 100vh;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+#home {
+  background-image: url('C:\Users\ponnram\Desktop\PRODIGY_WD_01\bg.jpg');
+}
+
+#about {
+  background-image: url('C:\Users\ponnram\Desktop\PRODIGY_WD_01\bg.jpg');
+}
+
+#services {
+  background-image: url('C:\Users\ponnram\Desktop\PRODIGY_WD_01\bg.jpg');
+}
+
+#contact {
+  background-image: url('C:\Users\ponnram\Desktop\PRODIGY_WD_01\bg.jpg');
+}
+
+/* Title styling */
+.title {
+  font-size: 36px;
+  color: red;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Contact Info Styles */
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  font-size: 16px;
+  color: red;
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+}
